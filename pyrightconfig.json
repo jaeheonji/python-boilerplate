@@ -1,0 +1,11 @@
+{
+    "include": [
+        "python_boilerplate"
+    ],
+    "exclude": [
+        "**/__pycache__"
+    ],
+
+    "reportMissingImports": "error",
+    "reportMissingTypeStubs": "none"
+}

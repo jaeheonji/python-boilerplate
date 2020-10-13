@@ -1,0 +1,17 @@
+{
+    // VSCode
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    // Python Extension
+    "python.venvPath": "./.venv",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    // Pyright
+    "python.analysis.useLibraryCodeForTypes": true
+}
